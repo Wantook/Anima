@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Animation"
+             x:Class="Animation.SettingsPage"
+             BackgroundColor="{StaticResource BackgroundColor}">
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Label x:Name="ScaleRotateLabel" 
+               Text="I am good at spinning lolz" 
+               FontSize="24" 
+               TextColor="{StaticResource TextColor}" />
+        <Button Text="Spinner" 
+                BackgroundColor="{StaticResource ButtonColor}" 
+                TextColor="{StaticResource ButtonTextColor}" 
+                Clicked="OnAnimateScaleRotateClicked" />
+    </StackLayout>
+</ContentPage>

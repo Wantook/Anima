@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Animation"
+             x:Class="Animation.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--For dark theme colors of this crappy UI-->
+            <Color x:Key="BackgroundColor">#121212</Color>
+            <Color x:Key="TextColor">#FFFFFF</Color>
+            <Color x:Key="ButtonColor">#1E1E1E</Color>
+            <Color x:Key="ButtonTextColor">#FFFFFF</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
